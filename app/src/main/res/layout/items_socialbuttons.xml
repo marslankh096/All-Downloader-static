@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="9dp">
+
+    <ImageView
+        android:id="@+id/imageV"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:scaleType="centerCrop"
+        android:gravity="center"
+        android:padding="12dp"
+        android:src="@drawable/dailymotion" />
+
+    <TextView
+        android:id="@+id/text_V"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:text="Facebook asd asd d asd"
+        android:textSize="10sp"
+        android:textColor="#000000" />
+</LinearLayout>

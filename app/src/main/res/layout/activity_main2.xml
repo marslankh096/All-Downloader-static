@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <!-- Top small text -->
+    <TextView
+        android:id="@+id/tv_fast_free"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="fast free video downloader"
+        android:textColor="#9E9E9E"
+        android:textSize="14sp" />
+
+    <!-- Big Heading -->
+    <TextView
+        android:id="@+id/tv_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_fast_free"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:text="Download"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Highlighted orange background with multiple text -->
+    <LinearLayout
+        android:id="@+id/ll_multiple_sites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_download"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF9800"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:text="From multiple"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:text="Social sites"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Paragraph text -->
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_multiple_sites"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:text="Social media apps videos downloader, This is the easiest application to download videos from Facebook, Likee, Instagram, Tik Tok, Twitter,   WhatsApp cases."
+        android:textColor="#424242"
+        android:textSize="15sp" />
+
+    <!-- Get Started Button -->
+    <TextView
+        android:id="@+id/btn_get_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_description"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round"
+        android:backgroundTint="#1E5C77"
+        android:drawableEnd="@drawable/ic_arrow_right"
+        android:drawableTint="#FF9800"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Get’s Started"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:iconPadding="8dp" />
+
+</RelativeLayout>
